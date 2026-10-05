@@ -9,17 +9,17 @@ const Hero = () => {
           Taste Something Amazing
         </h1>
 
-        <h2 className="text-7xl font-semibold">
+        <h2 className="text-7xl font-semibold font-sans">
           Your cravings, our specialty.
         </h2>
 
-        <p>
+        <p className="pt-6 text-xl ">
           Explore delicious meals, fresh ingredients, and irresistible flavors
           all in one place.
         </p>
       </div>
-      <div className="w-1/2">
-        <img src={background} />
+      <div className="w-1/2 m-4">
+        <img src={background} className="rounded-md"/>
       </div>
     </div>
   );
