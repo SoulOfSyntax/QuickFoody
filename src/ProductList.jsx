@@ -16,7 +16,7 @@ const ProductList = () => {
           return (
             <div
               key={product.id}
-              className="flex hover:bg-black/40 flex-col gap-3 p-2 cursor-pointer justify-center items-center align-center w-[300px] h-[300px] rounded-md "
+              className="flex transition-transform duration-300 hover:scale-105 hover:bg-black/40 flex-col gap-3 p-2 cursor-pointer justify-center items-center align-center w-[300px] h-[300px] rounded-md "
             >
               <img
                 src={product.image}
